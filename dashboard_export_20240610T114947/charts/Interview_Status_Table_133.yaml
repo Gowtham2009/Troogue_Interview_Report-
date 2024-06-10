@@ -1,0 +1,236 @@
+slice_name: Interview Status Table
+description: null
+certified_by: null
+certification_details: null
+viz_type: table
+params:
+  datasource: 54__table
+  viz_type: table
+  slice_id: 133
+  query_mode: aggregate
+  groupby:
+  - interviewid
+  - createddate
+  - fromstatus
+  - status
+  time_grain_sqla: PT1H
+  temporal_columns_lookup:
+    createddate: true
+  all_columns: []
+  percent_metrics: []
+  adhoc_filters:
+  - clause: WHERE
+    comparator: No filter
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_g1283zj333d_090wqcvy58jn
+    isExtra: false
+    isNew: false
+    operator: TEMPORAL_RANGE
+    sqlExpression: null
+    subject: createddate
+  - clause: WHERE
+    comparator:
+    - PARTIALLYCOMPLETEDNEG
+    - COMPLETEDNEG
+    - COMPLETED
+    - INPROGRESS
+    - SCHEDULED
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_dfpbnhbbgt9_r1aod3pchyn
+    isExtra: false
+    isNew: false
+    operator: IN
+    operatorId: IN
+    sqlExpression: null
+    subject: fromstatus
+  - clause: WHERE
+    comparator:
+    - ABANDONED
+    - Trooger Ignored in Resume Interview
+    - PARTIALLYCOMPLETED
+    - PARTIALLYCOMPLETEDNEG
+    - COMPLETEDNEG
+    - ABN_ADMIN_AUTO_SKIPPING
+    - CC Admin Auto Skipping quesions and abandoning Interview
+    - INPROGRESS
+    - SCHEDULED
+    - Trooger submitted Empty answers or Unsatisfied answers
+    - Trooger Clicking End Call
+    - COMPLETED
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_pzx63g6qjx_f86f1l1m9ct
+    isExtra: false
+    isNew: false
+    operator: IN
+    operatorId: IN
+    sqlExpression: null
+    subject: status
+  - clause: WHERE
+    comparator:
+    - 718
+    - 667
+    - 668
+    - 753
+    - 708
+    - 765
+    - 684
+    - 713
+    - 781
+    - 773
+    - 732
+    - 701
+    - 758
+    - 738
+    - 670
+    - 762
+    - 712
+    - 734
+    - 751
+    - 679
+    - 663
+    - 770
+    - 729
+    - 680
+    - 754
+    - 737
+    - 782
+    - 784
+    - 764
+    - 689
+    - 711
+    - 707
+    - 665
+    - 780
+    - 759
+    - 768
+    - 693
+    - 775
+    - 744
+    - 733
+    - 682
+    - 674
+    - 715
+    - 763
+    - 659
+    - 700
+    - 739
+    - 676
+    - 778
+    - 717
+    - 755
+    - 685
+    - 658
+    - 741
+    - 716
+    - 664
+    - 736
+    - 703
+    - 695
+    - 710
+    - 678
+    - 767
+    - 687
+    - 766
+    - 728
+    - 691
+    - 725
+    - 622
+    - 697
+    - 721
+    - 769
+    - 705
+    - 774
+    - 677
+    - 746
+    - 720
+    - 786
+    - 620
+    - 698
+    - 686
+    - 681
+    - 743
+    - 761
+    - 706
+    - 673
+    - 785
+    - 666
+    - 783
+    - 694
+    - 749
+    - 690
+    - 669
+    - 776
+    - 723
+    - 752
+    - 692
+    - 688
+    - 683
+    - 722
+    - 662
+    - 724
+    - 702
+    - 699
+    - 735
+    - 714
+    - 772
+    - 745
+    - 726
+    - 740
+    - 704
+    - 719
+    - 756
+    - 747
+    - 757
+    - 656
+    - 771
+    - 777
+    - 730
+    - 760
+    - 672
+    - 657
+    - 709
+    - 731
+    - 671
+    - 621
+    - 750
+    - 748
+    - 727
+    - 675
+    - 696
+    - 779
+    - 742
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_n208xrjsakg_42hzb2iw8i4
+    isExtra: false
+    isNew: false
+    operator: IN
+    operatorId: IN
+    sqlExpression: null
+    subject: interviewid
+  order_by_cols: []
+  row_limit: 5000
+  server_page_length: 10
+  order_desc: true
+  table_timestamp_format: smart_date
+  show_cell_bars: true
+  color_pn: true
+  extra_form_data: {}
+  dashboards:
+  - 6
+query_context: '{"datasource":{"id":54,"type":"table"},"force":false,"queries":[{"filters":[{"col":"createddate","op":"TEMPORAL_RANGE","val":"No
+  filter"},{"col":"fromstatus","op":"IN","val":["PARTIALLYCOMPLETEDNEG","COMPLETEDNEG","COMPLETED","INPROGRESS","SCHEDULED"]},{"col":"status","op":"IN","val":["ABANDONED","Trooger
+  Ignored in Resume Interview","PARTIALLYCOMPLETED","PARTIALLYCOMPLETEDNEG","COMPLETEDNEG","ABN_ADMIN_AUTO_SKIPPING","CC
+  Admin Auto Skipping quesions and abandoning Interview","INPROGRESS","SCHEDULED","Trooger
+  submitted Empty answers or Unsatisfied answers","Trooger Clicking End Call","COMPLETED"]},{"col":"interviewid","op":"IN","val":[718,667,668,753,708,765,684,713,781,773,732,701,758,738,670,762,712,734,751,679,663,770,729,680,754,737,782,784,764,689,711,707,665,780,759,768,693,775,744,733,682,674,715,763,659,700,739,676,778,717,755,685,658,741,716,664,736,703,695,710,678,767,687,766,728,691,725,622,697,721,769,705,774,677,746,720,786,620,698,686,681,743,761,706,673,785,666,783,694,749,690,669,776,723,752,692,688,683,722,662,724,702,699,735,714,772,745,726,740,704,719,756,747,757,656,771,777,730,760,672,657,709,731,671,621,750,748,727,675,696,779,742]}],"extras":{"time_grain_sqla":"PT1H","having":"","where":""},"applied_time_extras":{},"columns":["interviewid",{"timeGrain":"PT1H","columnType":"BASE_AXIS","sqlExpression":"createddate","label":"createddate","expressionType":"SQL"},"fromstatus","status"],"metrics":[],"orderby":[],"annotation_layers":[],"row_limit":5000,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[]}],"form_data":{"datasource":"54__table","viz_type":"table","slice_id":133,"query_mode":"aggregate","groupby":["interviewid","createddate","fromstatus","status"],"time_grain_sqla":"PT1H","temporal_columns_lookup":{"createddate":true},"all_columns":[],"percent_metrics":[],"adhoc_filters":[{"clause":"WHERE","comparator":"No
+  filter","datasourceWarning":false,"expressionType":"SIMPLE","filterOptionName":"filter_g1283zj333d_090wqcvy58jn","isExtra":false,"isNew":false,"operator":"TEMPORAL_RANGE","sqlExpression":null,"subject":"createddate"},{"clause":"WHERE","comparator":["PARTIALLYCOMPLETEDNEG","COMPLETEDNEG","COMPLETED","INPROGRESS","SCHEDULED"],"datasourceWarning":false,"expressionType":"SIMPLE","filterOptionName":"filter_dfpbnhbbgt9_r1aod3pchyn","isExtra":false,"isNew":false,"operator":"IN","operatorId":"IN","sqlExpression":null,"subject":"fromstatus"},{"clause":"WHERE","comparator":["ABANDONED","Trooger
+  Ignored in Resume Interview","PARTIALLYCOMPLETED","PARTIALLYCOMPLETEDNEG","COMPLETEDNEG","ABN_ADMIN_AUTO_SKIPPING","CC
+  Admin Auto Skipping quesions and abandoning Interview","INPROGRESS","SCHEDULED","Trooger
+  submitted Empty answers or Unsatisfied answers","Trooger Clicking End Call","COMPLETED"],"datasourceWarning":false,"expressionType":"SIMPLE","filterOptionName":"filter_pzx63g6qjx_f86f1l1m9ct","isExtra":false,"isNew":false,"operator":"IN","operatorId":"IN","sqlExpression":null,"subject":"status"},{"clause":"WHERE","comparator":[718,667,668,753,708,765,684,713,781,773,732,701,758,738,670,762,712,734,751,679,663,770,729,680,754,737,782,784,764,689,711,707,665,780,759,768,693,775,744,733,682,674,715,763,659,700,739,676,778,717,755,685,658,741,716,664,736,703,695,710,678,767,687,766,728,691,725,622,697,721,769,705,774,677,746,720,786,620,698,686,681,743,761,706,673,785,666,783,694,749,690,669,776,723,752,692,688,683,722,662,724,702,699,735,714,772,745,726,740,704,719,756,747,757,656,771,777,730,760,672,657,709,731,671,621,750,748,727,675,696,779,742],"datasourceWarning":false,"expressionType":"SIMPLE","filterOptionName":"filter_n208xrjsakg_42hzb2iw8i4","isExtra":false,"isNew":false,"operator":"IN","operatorId":"IN","sqlExpression":null,"subject":"interviewid"}],"order_by_cols":[],"row_limit":5000,"server_page_length":10,"order_desc":true,"table_timestamp_format":"smart_date","show_cell_bars":true,"color_pn":true,"extra_form_data":{},"dashboards":[6],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 65132602-9801-49e5-9efb-c5b9d8b0fd34
+version: 1.0.0
+dataset_uuid: 73f18275-981f-4e12-99cf-83446103d59b

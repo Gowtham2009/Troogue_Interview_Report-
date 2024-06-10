@@ -1,0 +1,108 @@
+slice_name: Role wise Questions Skipped
+description: null
+certified_by: null
+certification_details: null
+viz_type: pie
+params:
+  datasource: 43__table
+  viz_type: pie
+  slice_id: 114
+  groupby:
+  - category
+  metric:
+    aggregate: COUNT
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: skipped
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 775
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: BOOLEAN
+      type_generic: 3
+      verbose_name: null
+      warning_markdown: null
+    datasourceWarning: false
+    expressionType: SIMPLE
+    hasCustomLabel: false
+    label: COUNT(skipped)
+    optionName: metric_edex9l7wgm_bs2o3sofsf
+    sqlExpression: null
+  adhoc_filters:
+  - clause: WHERE
+    comparator: No filter
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_jwou4b8kd5_8321hfbhf23
+    isExtra: false
+    isNew: false
+    operator: TEMPORAL_RANGE
+    sqlExpression: null
+    subject: responsetime
+  - clause: WHERE
+    comparator: true
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_8sqn4s5sfkb_iegn6545w6m
+    isExtra: false
+    isNew: false
+    operator: ==
+    operatorId: IS_TRUE
+    sqlExpression: null
+    subject: skipped
+  - clause: WHERE
+    comparator:
+    - Angular Dveloper
+    - Java Developer
+    - Project Manager
+    - React Native Developer
+    - React Developer
+    - Flutter Developer
+    - Python Developer
+    - Self Introduction
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_qub64n8vaa7_3v6gmrbpgpj
+    isExtra: false
+    isNew: false
+    operator: IN
+    operatorId: IN
+    sqlExpression: null
+    subject: category
+  row_limit: 10000
+  sort_by_metric: true
+  color_scheme: googleCategory10c
+  show_labels_threshold: 5
+  show_legend: true
+  legendType: scroll
+  legendOrientation: top
+  label_type: key
+  number_format: SMART_NUMBER
+  date_format: smart_date
+  show_labels: true
+  labels_outside: true
+  label_line: true
+  show_total: false
+  outerRadius: 66
+  donut: true
+  innerRadius: 32
+  extra_form_data: {}
+  dashboards:
+  - 6
+query_context: '{"datasource":{"id":43,"type":"table"},"force":false,"queries":[{"filters":[{"col":"responsetime","op":"TEMPORAL_RANGE","val":"No
+  filter"},{"col":"skipped","op":"==","val":true},{"col":"category","op":"IN","val":["Angular
+  Dveloper","Java Developer","Project Manager","React Native Developer","React Developer","Flutter
+  Developer","Python Developer","Self Introduction"]}],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":["category"],"metrics":[{"aggregate":"COUNT","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"skipped","description":null,"expression":null,"filterable":true,"groupby":true,"id":775,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"BOOLEAN","type_generic":3,"verbose_name":null,"warning_markdown":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":false,"label":"COUNT(skipped)","optionName":"metric_edex9l7wgm_bs2o3sofsf","sqlExpression":null}],"orderby":[[{"aggregate":"COUNT","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"skipped","description":null,"expression":null,"filterable":true,"groupby":true,"id":775,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"BOOLEAN","type_generic":3,"verbose_name":null,"warning_markdown":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":false,"label":"COUNT(skipped)","optionName":"metric_edex9l7wgm_bs2o3sofsf","sqlExpression":null},false]],"annotation_layers":[],"row_limit":10000,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"form_data":{"datasource":"43__table","viz_type":"pie","slice_id":114,"groupby":["category"],"metric":{"aggregate":"COUNT","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"skipped","description":null,"expression":null,"filterable":true,"groupby":true,"id":775,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"BOOLEAN","type_generic":3,"verbose_name":null,"warning_markdown":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":false,"label":"COUNT(skipped)","optionName":"metric_edex9l7wgm_bs2o3sofsf","sqlExpression":null},"adhoc_filters":[{"clause":"WHERE","comparator":"No
+  filter","datasourceWarning":false,"expressionType":"SIMPLE","filterOptionName":"filter_jwou4b8kd5_8321hfbhf23","isExtra":false,"isNew":false,"operator":"TEMPORAL_RANGE","sqlExpression":null,"subject":"responsetime"},{"clause":"WHERE","comparator":true,"datasourceWarning":false,"expressionType":"SIMPLE","filterOptionName":"filter_8sqn4s5sfkb_iegn6545w6m","isExtra":false,"isNew":false,"operator":"==","operatorId":"IS_TRUE","sqlExpression":null,"subject":"skipped"},{"clause":"WHERE","comparator":["Angular
+  Dveloper","Java Developer","Project Manager","React Native Developer","React Developer","Flutter
+  Developer","Python Developer","Self Introduction"],"datasourceWarning":false,"expressionType":"SIMPLE","filterOptionName":"filter_qub64n8vaa7_3v6gmrbpgpj","isExtra":false,"isNew":false,"operator":"IN","operatorId":"IN","sqlExpression":null,"subject":"category"}],"row_limit":10000,"sort_by_metric":true,"color_scheme":"googleCategory10c","show_labels_threshold":5,"show_legend":true,"legendType":"scroll","legendOrientation":"top","label_type":"key","number_format":"SMART_NUMBER","date_format":"smart_date","show_labels":true,"labels_outside":true,"label_line":true,"show_total":false,"outerRadius":66,"donut":true,"innerRadius":32,"extra_form_data":{},"dashboards":[6],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 99b9646e-b84f-4fe6-ab70-71f4caf11b58
+version: 1.0.0
+dataset_uuid: 8fbc5947-b3b9-4ae8-81fc-2a0f2375f161

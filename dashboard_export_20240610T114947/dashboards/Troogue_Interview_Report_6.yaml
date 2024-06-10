@@ -1,0 +1,1414 @@
+dashboard_title: Troogue Interview Report
+description: null
+css: ".navbar {\n    transition: opacity 0.5s ease;\n    opacity: 0.05;\n}\n.navbar:hover\
+  \ {\n    opacity: 1;\n}\n.chart-header .header{\n    font-weight: @font-weight-normal;\n\
+  \    font-size: 12px;\n}\n/*\nvar bnbColors = [\n    //rausch    hackb      kazan\
+  \      babu      lima        beach     tirol\n    '#ff5a5f', '#7b0051', '#007A87',\
+  \ '#00d1c1', '#8ce071', '#ffb400', '#b4a76c',\n    '#ff8083', '#cc0086', '#00a1b3',\
+  \ '#00ffeb', '#bbedab', '#ffd266', '#cbc29a',\n    '#ff3339', '#ff1ab1', '#005c66',\
+  \ '#00b3a5', '#55d12e', '#b37e00', '#988b4e',\n ];\n*/\n"
+slug: null
+certified_by: ''
+certification_details: ''
+published: true
+uuid: 090dffa3-411d-4f5d-a61f-b05e850c8893
+position:
+  CHART-explore-103-1:
+    children: []
+    id: CHART-explore-103-1
+    meta:
+      chartId: 103
+      height: 67
+      sliceName: Coding quetsions count and rating
+      uuid: 6f6a17de-dca4-4c5d-8282-e67ec907c636
+      width: 12
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-yW51zo8YaT
+    - ROW-7LlH7Fc5L
+    type: CHART
+  CHART-explore-104-1:
+    children: []
+    id: CHART-explore-104-1
+    meta:
+      chartId: 104
+      height: 65
+      sliceName: Interview question high count and its rating
+      sliceNameOverride: Interview question high count and its rating(low answer rates)
+      uuid: 0009a66d-48c9-48d5-87a8-49ee89c032c9
+      width: 12
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-yW51zo8YaT
+    - ROW-V25jHLIA9
+    type: CHART
+  CHART-explore-114-1:
+    children: []
+    id: CHART-explore-114-1
+    meta:
+      chartId: 114
+      height: 50
+      sliceName: Role wise Questions Skipped
+      uuid: 99b9646e-b84f-4fe6-ab70-71f4caf11b58
+      width: 12
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-IQy1u4uLQ
+    - ROW-crD9qevFy
+    type: CHART
+  CHART-explore-115-1:
+    children: []
+    id: CHART-explore-115-1
+    meta:
+      chartId: 115
+      height: 50
+      sliceName: Category wise Skipped Question
+      uuid: e4b77897-46c5-44b7-8334-d5218d5208da
+      width: 12
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-IQy1u4uLQ
+    - ROW-239RPHdu_
+    type: CHART
+  CHART-explore-116-1:
+    children: []
+    id: CHART-explore-116-1
+    meta:
+      chartId: 116
+      height: 50
+      sliceName: Questions With Highest and Lowest Answer
+      uuid: 44d5c784-4601-4db3-87b5-e4591d992286
+      width: 12
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-IQy1u4uLQ
+    - ROW-12Q2T4j01
+    type: CHART
+  CHART-explore-117-1:
+    children: []
+    id: CHART-explore-117-1
+    meta:
+      chartId: 117
+      height: 50
+      sliceName: Interview Info
+      uuid: f32e9260-f064-4b22-8ab8-75d5e7596e3b
+      width: 4
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-IQy1u4uLQ
+    - ROW-eM3Coe1LQ
+    type: CHART
+  CHART-explore-118-1:
+    children: []
+    id: CHART-explore-118-1
+    meta:
+      chartId: 118
+      height: 50
+      sliceName: Interview Status
+      sliceNameOverride: Interview Status Based on the  End Time
+      uuid: 16c878b8-8267-48a7-ad2b-b095b7947ec3
+      width: 4
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-IQy1u4uLQ
+    - ROW-eM3Coe1LQ
+    type: CHART
+  CHART-explore-119-1:
+    children: []
+    id: CHART-explore-119-1
+    meta:
+      chartId: 119
+      height: 50
+      sliceName: Interviews completed
+      uuid: 73cd4ec2-94ab-49b6-bb1e-44d2a250e9b7
+      width: 4
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-IQy1u4uLQ
+    - ROW-eM3Coe1LQ
+    type: CHART
+  CHART-explore-121-1:
+    children: []
+    id: CHART-explore-121-1
+    meta:
+      chartId: 121
+      height: 50
+      sliceName: Rate Card
+      uuid: 5d48a046-d9db-44b5-b8e3-f19461ea655b
+      width: 12
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-IQy1u4uLQ
+    - ROW-nZzS1Wl9v
+    type: CHART
+  CHART-explore-122-1:
+    children: []
+    id: CHART-explore-122-1
+    meta:
+      chartId: 122
+      height: 50
+      sliceName: Code Response
+      uuid: 24e0bb64-82ec-4b80-b02a-868099939c68
+      width: 12
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-IQy1u4uLQ
+    - ROW-SuJnyZpqD
+    type: CHART
+  CHART-explore-123-1:
+    children: []
+    id: CHART-explore-123-1
+    meta:
+      chartId: 123
+      height: 50
+      sliceName: Total Count Skill Wise
+      uuid: aba14579-6b1a-4f52-9fea-926c8e36155b
+      width: 12
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-IQy1u4uLQ
+    - ROW-Z-OqExAwN
+    type: CHART
+  CHART-explore-124-1:
+    children: []
+    id: CHART-explore-124-1
+    meta:
+      chartId: 124
+      height: 50
+      sliceName: Interview Status
+      sliceNameOverride: Interview Stages
+      uuid: 2133ccfa-c97f-44dc-8f59-2c69082465a1
+      width: 4
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-IQy1u4uLQ
+    - ROW-vxmYSpmMX
+    type: CHART
+  CHART-explore-125-1:
+    children: []
+    id: CHART-explore-125-1
+    meta:
+      chartId: 125
+      height: 50
+      sliceName: Interview Stage Count
+      uuid: 4eb77705-fa3e-4c69-9c75-a03b0c2d2bff
+      width: 4
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-IQy1u4uLQ
+    - ROW-vxmYSpmMX
+    type: CHART
+  CHART-explore-128-1:
+    children: []
+    id: CHART-explore-128-1
+    meta:
+      chartId: 128
+      height: 50
+      sliceName: Interview created (interview table)
+      uuid: 8401cc60-6f9e-4203-85d9-2b39101db0d7
+      width: 12
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-IQy1u4uLQ
+    - ROW-PlQes88W-
+    type: CHART
+  CHART-explore-131-1:
+    children: []
+    id: CHART-explore-131-1
+    meta:
+      chartId: 131
+      height: 50
+      sliceName: Interview and Ai State
+      uuid: 2831bd0c-c3ce-47fa-8cf6-94aabd65dfb0
+      width: 12
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-IQy1u4uLQ
+    - ROW-XiliPBV5B
+    type: CHART
+  CHART-explore-133-1:
+    children: []
+    id: CHART-explore-133-1
+    meta:
+      chartId: 133
+      height: 50
+      sliceName: Interview Status Table
+      uuid: 65132602-9801-49e5-9efb-c5b9d8b0fd34
+      width: 12
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-IQy1u4uLQ
+    - ROW-Kn3g1cLVG
+    type: CHART
+  CHART-explore-45-1:
+    children: []
+    id: CHART-explore-45-1
+    meta:
+      chartId: 45
+      height: 50
+      sliceName: Interview Created
+      uuid: a3c8770e-1ce2-411a-96d9-cbde000f246c
+      width: 3
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-yW51zo8YaT
+    - ROW-c_iFgUgoLs
+    type: CHART
+  CHART-explore-46-1:
+    children: []
+    id: CHART-explore-46-1
+    meta:
+      chartId: 46
+      height: 50
+      sliceName: Interview Status by Role
+      uuid: d2dfc193-4cdd-49a6-aea0-9419f00aa41c
+      width: 5
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-yW51zo8YaT
+    - ROW-By57JS2tW_
+    type: CHART
+  CHART-explore-47-1:
+    children: []
+    id: CHART-explore-47-1
+    meta:
+      chartId: 47
+      height: 50
+      sliceName: Interview Status
+      uuid: 6445e310-0463-471b-bdb7-1585c296bc3c
+      width: 4
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-yW51zo8YaT
+    - ROW-c_iFgUgoLs
+    type: CHART
+  CHART-explore-49-1:
+    children: []
+    id: CHART-explore-49-1
+    meta:
+      chartId: 49
+      height: 50
+      sliceName: Each Question
+      sliceNameOverride: Total Quetsion Skips
+      uuid: 5f39c6a8-d7a0-4e4c-941c-61a67ea4db81
+      width: 4
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-yW51zo8YaT
+    - ROW-c_iFgUgoLs
+    type: CHART
+  CHART-explore-50-1:
+    children: []
+    id: CHART-explore-50-1
+    meta:
+      chartId: 50
+      height: 50
+      sliceName: Questions with Highest Skips
+      uuid: b040205b-ce2a-4056-997c-6316aeadb22c
+      width: 12
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-yW51zo8YaT
+    - ROW-1MtC00_gMi
+    type: CHART
+  CHART-explore-77-1:
+    children: []
+    id: CHART-explore-77-1
+    meta:
+      chartId: 77
+      height: 50
+      sliceName: RATE CARD
+      uuid: db8a787f-044f-4193-ace2-2a58b5b821c0
+      width: 12
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-IQy1u4uLQ
+    - ROW-TXsR6B_cB
+    type: CHART
+  CHART-explore-78-1:
+    children: []
+    id: CHART-explore-78-1
+    meta:
+      chartId: 78
+      height: 50
+      sliceName: OVERALL RATE CARD
+      uuid: f089559d-c2f9-45a3-97d8-34be571cd0c6
+      width: 7
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-yW51zo8YaT
+    - ROW-qD_Z38Ntch
+    type: CHART
+  CHART-explore-89-1:
+    children: []
+    id: CHART-explore-89-1
+    meta:
+      chartId: 89
+      height: 50
+      sliceName: Interviews Created
+      uuid: 0eec24bd-52e5-4b30-8a27-ef15a5e91f9c
+      width: 4
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-j74ARVHN0
+    - ROW-j5FOk3fCS
+    type: CHART
+  CHART-explore-90-1:
+    children: []
+    id: CHART-explore-90-1
+    meta:
+      chartId: 90
+      height: 50
+      sliceName: Interview Status
+      uuid: 247ac89a-35d1-41a6-81d7-6f2526b686e3
+      width: 8
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-j74ARVHN0
+    - ROW-j5FOk3fCS
+    type: CHART
+  CHART-explore-91-1:
+    children: []
+    id: CHART-explore-91-1
+    meta:
+      chartId: 91
+      height: 50
+      sliceName: Total Question Skips
+      uuid: 981c8941-2914-487d-8709-4e9ce4a821a3
+      width: 4
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-j74ARVHN0
+    - ROW-wsxhrIsDR
+    type: CHART
+  CHART-explore-95-1:
+    children: []
+    id: CHART-explore-95-1
+    meta:
+      chartId: 95
+      height: 58
+      sliceName: High Answer rate questions
+      uuid: ecb719e0-0c6b-4f69-afca-10ead7333bf0
+      width: 12
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-yW51zo8YaT
+    - ROW-XiCtEQL8C
+    type: CHART
+  DASHBOARD_VERSION_KEY: v2
+  DIVIDER-s5QRNqxnMl:
+    children: []
+    id: DIVIDER-s5QRNqxnMl
+    meta: {}
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-yW51zo8YaT
+    type: DIVIDER
+  GRID_ID:
+    children: []
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER-BrBr3ufmgP:
+    children: []
+    id: HEADER-BrBr3ufmgP
+    meta:
+      background: BACKGROUND_TRANSPARENT
+      headerSize: MEDIUM_HEADER
+      text: Rate Cards
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-yW51zo8YaT
+    type: HEADER
+  HEADER-OOePVGznZh:
+    children: []
+    id: HEADER-OOePVGznZh
+    meta:
+      background: BACKGROUND_TRANSPARENT
+      headerSize: MEDIUM_HEADER
+      text: Role Wise Interviews
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-yW51zo8YaT
+    type: HEADER
+  HEADER-kz0U2P2w4k:
+    children: []
+    id: HEADER-kz0U2P2w4k
+    meta:
+      background: BACKGROUND_TRANSPARENT
+      headerSize: MEDIUM_HEADER
+      text: Number of Interview Status
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-yW51zo8YaT
+    type: HEADER
+  HEADER-p_PCXMy8y3:
+    children: []
+    id: HEADER-p_PCXMy8y3
+    meta:
+      background: BACKGROUND_TRANSPARENT
+      headerSize: MEDIUM_HEADER
+      text: Question Analytics
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-yW51zo8YaT
+    type: HEADER
+  HEADER-ufOR41HH_0:
+    children: []
+    id: HEADER-ufOR41HH_0
+    meta:
+      background: BACKGROUND_TRANSPARENT
+      headerSize: MEDIUM_HEADER
+      text: Code Response
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-yW51zo8YaT
+    type: HEADER
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: Troogue Interview Report
+    type: HEADER
+  ROOT_ID:
+    children:
+    - TABS-oyvqhxan2w
+    id: ROOT_ID
+    type: ROOT
+  ROW-12Q2T4j01:
+    children:
+    - CHART-explore-116-1
+    id: ROW-12Q2T4j01
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-IQy1u4uLQ
+    type: ROW
+  ROW-1MtC00_gMi:
+    children:
+    - CHART-explore-50-1
+    id: ROW-1MtC00_gMi
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-yW51zo8YaT
+    type: ROW
+  ROW-239RPHdu_:
+    children:
+    - CHART-explore-115-1
+    id: ROW-239RPHdu_
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-IQy1u4uLQ
+    type: ROW
+  ROW-7LlH7Fc5L:
+    children:
+    - CHART-explore-103-1
+    id: ROW-7LlH7Fc5L
+    meta:
+      '0': ROOT_ID
+      '1': TABS-oyvqhxan2w
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-yW51zo8YaT
+    type: ROW
+  ROW-By57JS2tW_:
+    children:
+    - CHART-explore-46-1
+    id: ROW-By57JS2tW_
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-yW51zo8YaT
+    type: ROW
+  ROW-Kn3g1cLVG:
+    children:
+    - CHART-explore-133-1
+    id: ROW-Kn3g1cLVG
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-IQy1u4uLQ
+    type: ROW
+  ROW-PlQes88W-:
+    children:
+    - CHART-explore-128-1
+    id: ROW-PlQes88W-
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-IQy1u4uLQ
+    type: ROW
+  ROW-SuJnyZpqD:
+    children:
+    - CHART-explore-122-1
+    id: ROW-SuJnyZpqD
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-IQy1u4uLQ
+    type: ROW
+  ROW-TXsR6B_cB:
+    children:
+    - CHART-explore-77-1
+    id: ROW-TXsR6B_cB
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-IQy1u4uLQ
+    type: ROW
+  ROW-V25jHLIA9:
+    children:
+    - CHART-explore-104-1
+    id: ROW-V25jHLIA9
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-yW51zo8YaT
+    type: ROW
+  ROW-XiCtEQL8C:
+    children:
+    - CHART-explore-95-1
+    id: ROW-XiCtEQL8C
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-yW51zo8YaT
+    type: ROW
+  ROW-XiliPBV5B:
+    children:
+    - CHART-explore-131-1
+    id: ROW-XiliPBV5B
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-IQy1u4uLQ
+    type: ROW
+  ROW-Z-OqExAwN:
+    children:
+    - CHART-explore-123-1
+    id: ROW-Z-OqExAwN
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-IQy1u4uLQ
+    type: ROW
+  ROW-c_iFgUgoLs:
+    children:
+    - CHART-explore-45-1
+    - CHART-explore-47-1
+    - CHART-explore-49-1
+    id: ROW-c_iFgUgoLs
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-yW51zo8YaT
+    type: ROW
+  ROW-crD9qevFy:
+    children:
+    - CHART-explore-114-1
+    id: ROW-crD9qevFy
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-IQy1u4uLQ
+    type: ROW
+  ROW-eM3Coe1LQ:
+    children:
+    - CHART-explore-118-1
+    - CHART-explore-117-1
+    - CHART-explore-119-1
+    id: ROW-eM3Coe1LQ
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-IQy1u4uLQ
+    type: ROW
+  ROW-j5FOk3fCS:
+    children:
+    - CHART-explore-89-1
+    - CHART-explore-90-1
+    id: ROW-j5FOk3fCS
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-j74ARVHN0
+    type: ROW
+  ROW-nZzS1Wl9v:
+    children:
+    - CHART-explore-121-1
+    id: ROW-nZzS1Wl9v
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-IQy1u4uLQ
+    type: ROW
+  ROW-qD_Z38Ntch:
+    children:
+    - CHART-explore-78-1
+    id: ROW-qD_Z38Ntch
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-yW51zo8YaT
+    type: ROW
+  ROW-vxmYSpmMX:
+    children:
+    - CHART-explore-124-1
+    - CHART-explore-125-1
+    id: ROW-vxmYSpmMX
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-IQy1u4uLQ
+    type: ROW
+  ROW-wsxhrIsDR:
+    children:
+    - CHART-explore-91-1
+    id: ROW-wsxhrIsDR
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    - TAB-j74ARVHN0
+    type: ROW
+  TAB-IQy1u4uLQ:
+    children:
+    - ROW-eM3Coe1LQ
+    - ROW-vxmYSpmMX
+    - ROW-Kn3g1cLVG
+    - ROW-PlQes88W-
+    - ROW-XiliPBV5B
+    - ROW-Z-OqExAwN
+    - ROW-crD9qevFy
+    - ROW-nZzS1Wl9v
+    - ROW-TXsR6B_cB
+    - ROW-239RPHdu_
+    - ROW-12Q2T4j01
+    - ROW-SuJnyZpqD
+    id: TAB-IQy1u4uLQ
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: Latest
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    type: TAB
+  TAB-j74ARVHN0:
+    children:
+    - ROW-j5FOk3fCS
+    - ROW-wsxhrIsDR
+    id: TAB-j74ARVHN0
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: Custom
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    type: TAB
+  TAB-yW51zo8YaT:
+    children:
+    - HEADER-kz0U2P2w4k
+    - ROW-c_iFgUgoLs
+    - HEADER-OOePVGznZh
+    - ROW-By57JS2tW_
+    - HEADER-BrBr3ufmgP
+    - ROW-qD_Z38Ntch
+    - HEADER-p_PCXMy8y3
+    - ROW-1MtC00_gMi
+    - ROW-XiCtEQL8C
+    - ROW-V25jHLIA9
+    - DIVIDER-s5QRNqxnMl
+    - HEADER-ufOR41HH_0
+    - ROW-7LlH7Fc5L
+    id: TAB-yW51zo8YaT
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: Overall
+    parents:
+    - ROOT_ID
+    - TABS-oyvqhxan2w
+    type: TAB
+  TABS-oyvqhxan2w:
+    children:
+    - TAB-yW51zo8YaT
+    - TAB-j74ARVHN0
+    - TAB-IQy1u4uLQ
+    id: TABS-oyvqhxan2w
+    meta: {}
+    parents:
+    - ROOT_ID
+    type: TABS
+metadata:
+  chart_configuration:
+    '46':
+      id: 46
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 50
+        - 78
+        - 89
+        - 90
+        - 91
+        - 95
+        - 103
+        - 104
+    '47':
+      id: 47
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded:
+          - 47
+        chartsInScope:
+        - 45
+        - 46
+        - 49
+        - 50
+        - 77
+        - 78
+        - 89
+        - 90
+        - 91
+        - 95
+        - 103
+        - 104
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 128
+        - 131
+        - 133
+    '50':
+      id: 50
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 78
+        - 89
+        - 90
+        - 91
+        - 95
+        - 103
+        - 104
+    '77':
+      id: 77
+      crossFilters:
+        scope:
+          rootPath: []
+          excluded:
+          - 77
+        chartsInScope: []
+    '78':
+      id: 78
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 50
+        - 89
+        - 90
+        - 91
+        - 95
+        - 103
+        - 104
+    '90':
+      id: 90
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 50
+        - 78
+        - 89
+        - 91
+        - 95
+        - 103
+        - 104
+    '95':
+      id: 95
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 50
+        - 78
+        - 89
+        - 90
+        - 91
+        - 103
+        - 104
+    '103':
+      id: 103
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 50
+        - 78
+        - 89
+        - 90
+        - 91
+        - 95
+        - 104
+    '104':
+      id: 104
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 50
+        - 78
+        - 89
+        - 90
+        - 91
+        - 95
+        - 103
+    '114':
+      id: 114
+      crossFilters:
+        scope:
+          rootPath:
+          - TAB-IQy1u4uLQ
+          excluded:
+          - 114
+          - 117
+          - 118
+          - 119
+          - 124
+          - 125
+          - 128
+          - 131
+          - 133
+        chartsInScope:
+        - 77
+        - 115
+        - 116
+        - 121
+        - 122
+        - 123
+    '115':
+      id: 115
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 50
+        - 78
+        - 89
+        - 90
+        - 91
+        - 95
+        - 103
+        - 104
+    '116':
+      id: 116
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 50
+        - 78
+        - 89
+        - 90
+        - 91
+        - 95
+        - 103
+        - 104
+    '118':
+      id: 118
+      crossFilters:
+        scope:
+          rootPath:
+          - TAB-IQy1u4uLQ
+          excluded:
+          - 114
+          - 115
+          - 116
+          - 118
+          - 119
+          - 121
+          - 122
+          - 123
+          - 124
+          - 125
+          - 126
+          - 129
+          - 77
+          - 131
+        chartsInScope:
+        - 117
+        - 128
+        - 133
+    '121':
+      id: 121
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 50
+        - 78
+        - 89
+        - 90
+        - 91
+        - 95
+        - 103
+        - 104
+    '122':
+      id: 122
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 50
+        - 78
+        - 89
+        - 90
+        - 91
+        - 95
+        - 103
+        - 104
+    '123':
+      id: 123
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 50
+        - 78
+        - 89
+        - 90
+        - 91
+        - 95
+        - 103
+        - 104
+    '124':
+      id: 124
+      crossFilters:
+        scope:
+          rootPath:
+          - TAB-IQy1u4uLQ
+          excluded:
+          - 114
+          - 115
+          - 116
+          - 117
+          - 118
+          - 119
+          - 121
+          - 122
+          - 123
+          - 124
+          - 128
+          - 77
+          - 133
+        chartsInScope:
+        - 125
+        - 131
+    '128':
+      id: 128
+      crossFilters:
+        scope:
+          rootPath:
+          - TAB-IQy1u4uLQ
+          excluded:
+          - 114
+          - 115
+          - 116
+          - 117
+          - 118
+          - 119
+          - 121
+          - 122
+          - 123
+          - 124
+          - 125
+          - 126
+          - 128
+          - 77
+        chartsInScope:
+        - 131
+        - 133
+    '131':
+      id: 131
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 50
+        - 78
+        - 89
+        - 90
+        - 91
+        - 95
+        - 103
+        - 104
+    '133':
+      id: 133
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 50
+        - 78
+        - 89
+        - 90
+        - 91
+        - 95
+        - 103
+        - 104
+  global_chart_configuration:
+    scope:
+      rootPath:
+      - TAB-yW51zo8YaT
+      - TAB-j74ARVHN0
+      excluded:
+      - 45
+      - 46
+      - 47
+      - 49
+    chartsInScope:
+    - 50
+    - 78
+    - 89
+    - 90
+    - 91
+    - 95
+    - 103
+    - 104
+  color_scheme: googleCategory10c
+  refresh_frequency: 0
+  expanded_slices: {}
+  label_colors: {}
+  timed_refresh_immune_slices: []
+  cross_filters_enabled: true
+  default_filters: '{}'
+  native_filter_configuration:
+  - id: NATIVE_FILTER-BVkm8FgGB
+    controlValues:
+      enableEmptyFilter: false
+    name: Time range
+    filterType: filter_time
+    targets:
+    - {}
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds: []
+    scope:
+      rootPath:
+      - TAB-yW51zo8YaT
+      - TAB-j74ARVHN0
+      excluded:
+      - 103
+      - 104
+      - 46
+      - 95
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 45
+    - 47
+    - 49
+    - 50
+    - 78
+    - 89
+    - 90
+    - 91
+    tabsInScope:
+    - TAB-yW51zo8YaT
+    - TAB-j74ARVHN0
+  - id: NATIVE_FILTER-_E5MFuzvB
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    name: Role
+    filterType: filter_select
+    targets:
+    - column:
+        name: role
+      datasetUuid: d138132f-6208-4b5f-bb90-75354c326b5a
+    defaultDataMask:
+      extraFormData:
+        filters:
+        - col: role
+          op: IN
+          val:
+          - Java Developer
+      filterState:
+        validateMessage: false
+        validateStatus: false
+        label: Java Developer
+        value:
+        - Java Developer
+    cascadeParentIds:
+    - NATIVE_FILTER-BVkm8FgGB
+    scope:
+      rootPath:
+      - TAB-yW51zo8YaT
+      - TAB-j74ARVHN0
+      excluded:
+      - 103
+      - 104
+      - 45
+      - 47
+      - 49
+      - 50
+      - 77
+      - 78
+      - 95
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 46
+    - 47
+    - 49
+    - 77
+    - 78
+    - 89
+    - 90
+    - 91
+    tabsInScope:
+    - TAB-yW51zo8YaT
+    - TAB-j74ARVHN0
+    granularity_sqla: null
+  - id: NATIVE_FILTER-yW9JFPH6Z
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    name: Questions
+    filterType: filter_select
+    targets:
+    - column:
+        name: question
+      datasetUuid: 2252942e-7c71-45cf-9ab2-b896d4e2034f
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds: []
+    scope:
+      rootPath:
+      - TAB-yW51zo8YaT
+      - TAB-j74ARVHN0
+      excluded:
+      - 45
+      - 46
+      - 47
+      - 77
+      - 78
+      - 89
+      - 90
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 49
+    - 50
+    - 78
+    - 89
+    - 90
+    - 91
+    - 95
+    - 103
+    - 104
+    tabsInScope:
+    - TAB-yW51zo8YaT
+    - TAB-j74ARVHN0
+  - id: NATIVE_FILTER-fZNHd2-o2
+    controlValues:
+      enableEmptyFilter: false
+    name: Time Range
+    filterType: filter_time
+    targets:
+    - {}
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds: []
+    scope:
+      rootPath:
+      - TAB-IQy1u4uLQ
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 77
+    - 114
+    - 115
+    - 116
+    - 117
+    - 118
+    - 119
+    - 121
+    - 122
+    - 123
+    - 124
+    - 125
+    tabsInScope:
+    - TAB-IQy1u4uLQ
+  - id: NATIVE_FILTER-uhNWFFwTt
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: false
+      searchAllOptions: false
+      inverseSelection: false
+    granularity_sqla: null
+    name: Category
+    filterType: filter_select
+    targets:
+    - column:
+        name: category
+      datasetUuid: 8fbc5947-b3b9-4ae8-81fc-2a0f2375f161
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds:
+    - NATIVE_FILTER-BVkm8FgGB
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded:
+      - 45
+      - 46
+      - 47
+      - 49
+      - 50
+      - 77
+      - 78
+      - 89
+      - 90
+      - 91
+      - 95
+      - 103
+      - 104
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 114
+    - 115
+    - 116
+    - 117
+    - 118
+    - 119
+    - 121
+    - 122
+    - 123
+    - 124
+    - 125
+    tabsInScope:
+    - TAB-IQy1u4uLQ
+  shared_label_colors:
+    CREATED: '#3366cc'
+    stage3_completed: '#dc3912'
+    stage1_completed: '#ff9900'
+    stage1_in_progress: '#109618'
+    processed face validation Insights: '#990099'
+    stage3_in_progress: '#0099c6'
+    stage2_in_progress: '#dd4477'
+    combined insights: '#66aa00'
+    processed audio: '#b82e2e'
+    ABANDONED: '#3366cc'
+    COMPLETED: '#dc3912'
+    INPROGRESS: '#ff9900'
+    COMPLETEDNEG: '#109618'
+    ACCEPTED: '#990099'
+    SCHEDULED: '#0099c6'
+  color_scheme_domain:
+  - '#3366cc'
+  - '#dc3912'
+  - '#ff9900'
+  - '#109618'
+  - '#990099'
+  - '#0099c6'
+  - '#dd4477'
+  - '#66aa00'
+  - '#b82e2e'
+  - '#316395'
+version: 1.0.0

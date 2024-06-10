@@ -1,0 +1,95 @@
+table_name: Troogue new updated 1 05/23/2024 16:23:47
+main_dttm_col: createddate
+description: null
+default_endpoint: null
+offset: 0
+cache_timeout: null
+schema: interview
+sql: "SELECT \r\n    iv.createddate,\r\n    iv.status,\r\n    ir.skipped,\r\n    itd.role,\r\
+  \n    iq.question\r\nFROM \r\n    interview.interview iv \r\nINNER JOIN \r\n   \
+  \ interview.interviewresponse ir \r\n    ON iv.id = ir.interviewid \r\nINNER JOIN\
+  \ \r\n    interview.interviewratecard it \r\n    ON iv.id = it.interviewid \r\n\
+  INNER JOIN \r\n    interview.interviewdetail itd \r\n    ON iv.id = itd.interviewid\
+  \ \r\nINNER JOIN \r\n    interview.interviewquestion iq \r\n    ON iv.id = iq.interviewid\
+  \ \r\nWHERE \r\n    ir.questionid = iq.id;\r\n"
+params: null
+template_params: null
+filter_select_enabled: true
+fetch_values_predicate: null
+extra: null
+normalize_columns: false
+always_filter_main_dttm: false
+uuid: 2252942e-7c71-45cf-9ab2-b896d4e2034f
+metrics:
+- metric_name: count
+  verbose_name: COUNT(*)
+  metric_type: count
+  expression: COUNT(*)
+  description: null
+  d3format: null
+  currency: null
+  extra: null
+  warning_text: null
+columns:
+- column_name: skipped
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: BOOLEAN
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: ''
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: createddate
+  verbose_name: null
+  is_dttm: true
+  is_active: true
+  type: DATETIMETZ
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: ''
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: status
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: STRING
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: ''
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: question
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: STRING
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: ''
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: role
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: STRING
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: ''
+  description: null
+  python_date_format: null
+  extra: null
+version: 1.0.0
+database_uuid: 11f5c62b-c35e-4973-a349-edf089d2cadd
