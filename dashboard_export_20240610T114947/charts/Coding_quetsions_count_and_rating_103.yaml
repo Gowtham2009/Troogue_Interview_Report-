@@ -1,0 +1,35 @@
+slice_name: Coding quetsions count and rating
+description: null
+certified_by: null
+certification_details: null
+viz_type: table
+params:
+  datasource: 33__table
+  viz_type: table
+  slice_id: 103
+  query_mode: raw
+  groupby: []
+  time_grain_sqla: P1D
+  temporal_columns_lookup: {}
+  all_columns:
+  - questionid
+  - question
+  - count
+  - rating
+  percent_metrics: []
+  adhoc_filters: []
+  order_by_cols: []
+  row_limit: 1000
+  server_page_length: 10
+  order_desc: true
+  table_timestamp_format: smart_date
+  show_cell_bars: true
+  color_pn: true
+  extra_form_data: {}
+  dashboards:
+  - 6
+query_context: '{"datasource":{"id":33,"type":"table"},"force":false,"queries":[{"filters":[],"extras":{"time_grain_sqla":"P1D","having":"","where":""},"applied_time_extras":{},"columns":["questionid","question","count","rating"],"orderby":[],"annotation_layers":[],"row_limit":1000,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[]}],"form_data":{"datasource":"33__table","viz_type":"table","slice_id":103,"query_mode":"raw","groupby":[],"time_grain_sqla":"P1D","temporal_columns_lookup":{},"all_columns":["questionid","question","count","rating"],"percent_metrics":[],"adhoc_filters":[],"order_by_cols":[],"row_limit":1000,"server_page_length":10,"order_desc":true,"table_timestamp_format":"smart_date","show_cell_bars":true,"color_pn":true,"extra_form_data":{},"dashboards":[6],"force":false,"result_format":"json","result_type":"full","include_time":false},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 6f6a17de-dca4-4c5d-8282-e67ec907c636
+version: 1.0.0
+dataset_uuid: 1bc98f36-37fd-40bc-804e-300387fb7e36

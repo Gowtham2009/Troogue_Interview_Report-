@@ -1,0 +1,13 @@
+database_name: PostgreSQL
+sqlalchemy_uri: postgresql+psycopg2://postgres:XXXXXXXXXX@127.0.0.1:5432/troogue
+cache_timeout: null
+expose_in_sqllab: true
+allow_run_async: false
+allow_ctas: true
+allow_cvas: false
+allow_dml: true
+allow_file_upload: true
+extra:
+  allows_virtual_table_explore: true
+uuid: 11f5c62b-c35e-4973-a349-edf089d2cadd
+version: 1.0.0

@@ -1,0 +1,80 @@
+slice_name: Interview Info
+description: null
+certified_by: null
+certification_details: null
+viz_type: big_number_total
+params:
+  datasource: 9__table
+  viz_type: big_number_total
+  slice_id: 117
+  metric:
+    expressionType: SIMPLE
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: endtime
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 430
+      is_certified: false
+      is_dttm: true
+      python_date_format: null
+      type: TIMESTAMP(6) WITH TIME ZONE
+      type_generic: 2
+      verbose_name: null
+      warning_markdown: null
+    aggregate: COUNT
+    sqlExpression: null
+    datasourceWarning: false
+    hasCustomLabel: false
+    label: COUNT(endtime)
+    optionName: metric_s4hvohr6twb_4xxjb0xciki
+  adhoc_filters:
+  - expressionType: SIMPLE
+    subject: status
+    operator: IN
+    operatorId: IN
+    comparator:
+    - COMPLETEDNEG
+    - COMPLETED
+    - INPROGRESS
+    - ACCEPTED
+    - SCHEDULED
+    - ABANDONED
+    clause: WHERE
+    sqlExpression: null
+    isExtra: false
+    isNew: false
+    datasourceWarning: false
+    filterOptionName: filter_x8y0dh76ubc_vwuegsst7jr
+  - expressionType: SIMPLE
+    subject: endtime
+    operator: TEMPORAL_RANGE
+    operatorId: TEMPORAL_RANGE
+    comparator: No filter
+    clause: WHERE
+    sqlExpression: null
+    isExtra: false
+    isNew: false
+    datasourceWarning: false
+    filterOptionName: filter_cn0jnmn3n_y6aspviiiv
+  subheader: interviews
+  header_font_size: 0.4
+  subheader_font_size: 0.15
+  y_axis_format: SMART_NUMBER
+  time_format: smart_date
+  extra_form_data: {}
+  dashboards:
+  - 6
+query_context: '{"datasource":{"id":9,"type":"table"},"force":false,"queries":[{"filters":[{"col":"status","op":"IN","val":["COMPLETEDNEG","COMPLETED","INPROGRESS","ACCEPTED","SCHEDULED","ABANDONED"]},{"col":"endtime","op":"TEMPORAL_RANGE","val":"No
+  filter"}],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":[],"metrics":[{"expressionType":"SIMPLE","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"endtime","description":null,"expression":null,"filterable":true,"groupby":true,"id":430,"is_certified":false,"is_dttm":true,"python_date_format":null,"type":"TIMESTAMP(6)
+  WITH TIME ZONE","type_generic":2,"verbose_name":null,"warning_markdown":null},"aggregate":"COUNT","sqlExpression":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"COUNT(endtime)","optionName":"metric_s4hvohr6twb_4xxjb0xciki"}],"annotation_layers":[],"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"form_data":{"datasource":"9__table","viz_type":"big_number_total","slice_id":117,"metric":{"expressionType":"SIMPLE","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"endtime","description":null,"expression":null,"filterable":true,"groupby":true,"id":430,"is_certified":false,"is_dttm":true,"python_date_format":null,"type":"TIMESTAMP(6)
+  WITH TIME ZONE","type_generic":2,"verbose_name":null,"warning_markdown":null},"aggregate":"COUNT","sqlExpression":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"COUNT(endtime)","optionName":"metric_s4hvohr6twb_4xxjb0xciki"},"adhoc_filters":[{"expressionType":"SIMPLE","subject":"status","operator":"IN","operatorId":"IN","comparator":["COMPLETEDNEG","COMPLETED","INPROGRESS","ACCEPTED","SCHEDULED","ABANDONED"],"clause":"WHERE","sqlExpression":null,"isExtra":false,"isNew":false,"datasourceWarning":false,"filterOptionName":"filter_x8y0dh76ubc_vwuegsst7jr"},{"expressionType":"SIMPLE","subject":"endtime","operator":"TEMPORAL_RANGE","operatorId":"TEMPORAL_RANGE","comparator":"No
+  filter","clause":"WHERE","sqlExpression":null,"isExtra":false,"isNew":false,"datasourceWarning":false,"filterOptionName":"filter_cn0jnmn3n_y6aspviiiv"}],"subheader":"interviews","header_font_size":0.4,"subheader_font_size":0.15,"y_axis_format":"SMART_NUMBER","time_format":"smart_date","extra_form_data":{},"dashboards":[6],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: f32e9260-f064-4b22-8ab8-75d5e7596e3b
+version: 1.0.0
+dataset_uuid: fb2263b4-051a-4a93-976a-0b09cb6a8969

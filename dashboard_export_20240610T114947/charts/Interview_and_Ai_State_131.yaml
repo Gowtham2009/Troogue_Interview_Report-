@@ -1,0 +1,176 @@
+slice_name: Interview and Ai State
+description: null
+certified_by: null
+certification_details: null
+viz_type: table
+params:
+  datasource: 53__table
+  viz_type: table
+  slice_id: 131
+  query_mode: aggregate
+  groupby:
+  - uid
+  - createddate_timestamp
+  - interview_status
+  - job_status
+  - messages
+  time_grain_sqla: PT1H
+  temporal_columns_lookup:
+    createddate_timestamp: true
+  all_columns: []
+  percent_metrics: []
+  adhoc_filters:
+  - clause: WHERE
+    comparator: No filter
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_dk1wdq097eq_e4j7w3kj2ms
+    isExtra: false
+    isNew: false
+    operator: TEMPORAL_RANGE
+    sqlExpression: null
+    subject: createddate_timestamp
+  - clause: WHERE
+    comparator:
+    - 0e770ea178044349a151ae0dc4a5df0e
+    - 4716dbf146d6466094d090d7b80f5c3e
+    - 40c754a451044150bd87a4da2be75a57
+    - fc8ae7191ba248d481bcbdaa917fb8e4
+    - f4c1f44d96e14ed0af7910d0422e1751
+    - 900fe352c3f84fb5a02a83e119b39ff4
+    - 96ec75e9a99a4915ae15bd2affc709e4
+    - 9abe1b1a50884f63b27cace71b409045
+    - 8bd6027904c3461bb16b876d319507ba
+    - 888e040c8e654744abd420b34ef92dce
+    - 656ca4a7b48b4128a81033edc8931ddb
+    - ea0bc745f1074d9888092322eb3ca1b9
+    - 17cc23af4796476287dfd439dbfa60f2
+    - e9938b1e08d94870bc3788aa5fa8a419
+    - 4ab7ede87ab14e80922f2ff61dd38384
+    - fe6083a286be43edb1e9cc9075b27979
+    - 08ccf6753caa4832abe097fe2f034ff4
+    - 5bd2325131e34bfe92bf015a95bda915
+    - 0b530a70ebbd42d385ae44f7a535abe1
+    - 63a9acc1bcce4801b4ba41da38a80336
+    - 119eae171e3b462e955562ccfe97dff5
+    - 50742d87aba6444fa6af84dc9bc9ec83
+    - 7ad38ebe707b403680fa8938f59a0ac8
+    - e695c6ebfca54ab9ad9a0c78bd962164
+    - a77c5f5150964c34acc34ddfc05b6f53
+    - 33247700afb743fa99179445f0f2602c
+    - ab90438152bc488ba76dc5640f0b5982
+    - f6c2120371514d2aac465e8e1516c2b4
+    - d2f45022eb1b4ba08fd2cca70f4ae536
+    - 25311ee793f743d3bcbc946bd425a5db
+    - 25d44e375b6b451b8a4ec6319d89a75f
+    - 3ab52344f2e74c7f96afb4e30a5e4116
+    - d54108db363e4aafbae512a650b8e5d1
+    - 8bf08697b9d045259edc0cb7c50ed35e
+    - b2dde6e6cad542b3950381a71f080974
+    - b3189ade7b404964ad0d19db9a98fb90
+    - b4cadce80df84f1f98d9c4d71de9ee28
+    - b82d9e604f9647d98a76090b04c97d8c
+    - efcf4860648a4817867758ac50db0526
+    - 4acc627d3fc14830a6bd2b5fc58d3fd0
+    - 0e36837fb15e479eb56bf886371c31ae
+    - 170c65ac4a56474ebce72b43a880a98d
+    - e1cabfa22830444980c15469c11d4649
+    - 29e54cb4bb824e6ebc887eb2ce999b13
+    - 846f125d0bc94af1b300b88bd7f548c1
+    - 2b4a39efda8a43a0aa09f5a974977a71
+    - 1bfd61c707ec4bdbaab2389dee4852f7
+    - 68e361f4cdb847d9ab790a29e08a71b3
+    - 1117e29cb4db457f8ba9d447a76907c7
+    - d49795239d204379beb7ca661eea08f0
+    - 2741f58d786241af83d15b9e42c7be1b
+    - c5cac8df9a4844fc9d43ca55d959f7b1
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_12u1cipyz4bp_i5j525laiho
+    isExtra: false
+    isNew: false
+    operator: IN
+    operatorId: IN
+    sqlExpression: null
+    subject: uid
+  - clause: WHERE
+    comparator:
+    - 588
+    - 51
+    - 188
+    - 152
+    - 257
+    - 206
+    - 52
+    - 466
+    - 67
+    - 341
+    - 45
+    - 313
+    - 213
+    - 86
+    - 479
+    - 254
+    - 187
+    - 170
+    - 169
+    - 176
+    - 168
+    - 57
+    - 24
+    - 302
+    - 287
+    - 114
+    - 50
+    - 468
+    - 253
+    - 47
+    - 340
+    - 212
+    - 277
+    - 545
+    - 59
+    - 469
+    - 155
+    - 118
+    - 5
+    - 264
+    - 2
+    - 529
+    - 110
+    - 249
+    - 207
+    - 55
+    - 128
+    - 148
+    - 557
+    - 56
+    - 329
+    - 58
+    - 91
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_ips7c8tdvdl_gyysdsmc709
+    isExtra: false
+    isNew: false
+    operator: IN
+    operatorId: IN
+    sqlExpression: null
+    subject: interviewid
+  order_by_cols: []
+  row_limit: 5000
+  server_page_length: 10
+  order_desc: true
+  table_timestamp_format: smart_date
+  show_cell_bars: true
+  color_pn: true
+  extra_form_data: {}
+  dashboards:
+  - 6
+query_context: '{"datasource":{"id":53,"type":"table"},"force":false,"queries":[{"filters":[{"col":"createddate_timestamp","op":"TEMPORAL_RANGE","val":"No
+  filter"},{"col":"uid","op":"IN","val":["0e770ea178044349a151ae0dc4a5df0e","4716dbf146d6466094d090d7b80f5c3e","40c754a451044150bd87a4da2be75a57","fc8ae7191ba248d481bcbdaa917fb8e4","f4c1f44d96e14ed0af7910d0422e1751","900fe352c3f84fb5a02a83e119b39ff4","96ec75e9a99a4915ae15bd2affc709e4","9abe1b1a50884f63b27cace71b409045","8bd6027904c3461bb16b876d319507ba","888e040c8e654744abd420b34ef92dce","656ca4a7b48b4128a81033edc8931ddb","ea0bc745f1074d9888092322eb3ca1b9","17cc23af4796476287dfd439dbfa60f2","e9938b1e08d94870bc3788aa5fa8a419","4ab7ede87ab14e80922f2ff61dd38384","fe6083a286be43edb1e9cc9075b27979","08ccf6753caa4832abe097fe2f034ff4","5bd2325131e34bfe92bf015a95bda915","0b530a70ebbd42d385ae44f7a535abe1","63a9acc1bcce4801b4ba41da38a80336","119eae171e3b462e955562ccfe97dff5","50742d87aba6444fa6af84dc9bc9ec83","7ad38ebe707b403680fa8938f59a0ac8","e695c6ebfca54ab9ad9a0c78bd962164","a77c5f5150964c34acc34ddfc05b6f53","33247700afb743fa99179445f0f2602c","ab90438152bc488ba76dc5640f0b5982","f6c2120371514d2aac465e8e1516c2b4","d2f45022eb1b4ba08fd2cca70f4ae536","25311ee793f743d3bcbc946bd425a5db","25d44e375b6b451b8a4ec6319d89a75f","3ab52344f2e74c7f96afb4e30a5e4116","d54108db363e4aafbae512a650b8e5d1","8bf08697b9d045259edc0cb7c50ed35e","b2dde6e6cad542b3950381a71f080974","b3189ade7b404964ad0d19db9a98fb90","b4cadce80df84f1f98d9c4d71de9ee28","b82d9e604f9647d98a76090b04c97d8c","efcf4860648a4817867758ac50db0526","4acc627d3fc14830a6bd2b5fc58d3fd0","0e36837fb15e479eb56bf886371c31ae","170c65ac4a56474ebce72b43a880a98d","e1cabfa22830444980c15469c11d4649","29e54cb4bb824e6ebc887eb2ce999b13","846f125d0bc94af1b300b88bd7f548c1","2b4a39efda8a43a0aa09f5a974977a71","1bfd61c707ec4bdbaab2389dee4852f7","68e361f4cdb847d9ab790a29e08a71b3","1117e29cb4db457f8ba9d447a76907c7","d49795239d204379beb7ca661eea08f0","2741f58d786241af83d15b9e42c7be1b","c5cac8df9a4844fc9d43ca55d959f7b1"]},{"col":"interviewid","op":"IN","val":[588,51,188,152,257,206,52,466,67,341,45,313,213,86,479,254,187,170,169,176,168,57,24,302,287,114,50,468,253,47,340,212,277,545,59,469,155,118,5,264,2,529,110,249,207,55,128,148,557,56,329,58,91]}],"extras":{"time_grain_sqla":"PT1H","having":"","where":""},"applied_time_extras":{},"columns":["uid",{"timeGrain":"PT1H","columnType":"BASE_AXIS","sqlExpression":"createddate_timestamp","label":"createddate_timestamp","expressionType":"SQL"},"interview_status","job_status","messages"],"metrics":[],"orderby":[],"annotation_layers":[],"row_limit":5000,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[]}],"form_data":{"datasource":"53__table","viz_type":"table","slice_id":131,"query_mode":"aggregate","groupby":["uid","createddate_timestamp","interview_status","job_status","messages"],"time_grain_sqla":"PT1H","temporal_columns_lookup":{"createddate_timestamp":true},"all_columns":[],"percent_metrics":[],"adhoc_filters":[{"clause":"WHERE","comparator":"No
+  filter","datasourceWarning":false,"expressionType":"SIMPLE","filterOptionName":"filter_dk1wdq097eq_e4j7w3kj2ms","isExtra":false,"isNew":false,"operator":"TEMPORAL_RANGE","sqlExpression":null,"subject":"createddate_timestamp"},{"clause":"WHERE","comparator":["0e770ea178044349a151ae0dc4a5df0e","4716dbf146d6466094d090d7b80f5c3e","40c754a451044150bd87a4da2be75a57","fc8ae7191ba248d481bcbdaa917fb8e4","f4c1f44d96e14ed0af7910d0422e1751","900fe352c3f84fb5a02a83e119b39ff4","96ec75e9a99a4915ae15bd2affc709e4","9abe1b1a50884f63b27cace71b409045","8bd6027904c3461bb16b876d319507ba","888e040c8e654744abd420b34ef92dce","656ca4a7b48b4128a81033edc8931ddb","ea0bc745f1074d9888092322eb3ca1b9","17cc23af4796476287dfd439dbfa60f2","e9938b1e08d94870bc3788aa5fa8a419","4ab7ede87ab14e80922f2ff61dd38384","fe6083a286be43edb1e9cc9075b27979","08ccf6753caa4832abe097fe2f034ff4","5bd2325131e34bfe92bf015a95bda915","0b530a70ebbd42d385ae44f7a535abe1","63a9acc1bcce4801b4ba41da38a80336","119eae171e3b462e955562ccfe97dff5","50742d87aba6444fa6af84dc9bc9ec83","7ad38ebe707b403680fa8938f59a0ac8","e695c6ebfca54ab9ad9a0c78bd962164","a77c5f5150964c34acc34ddfc05b6f53","33247700afb743fa99179445f0f2602c","ab90438152bc488ba76dc5640f0b5982","f6c2120371514d2aac465e8e1516c2b4","d2f45022eb1b4ba08fd2cca70f4ae536","25311ee793f743d3bcbc946bd425a5db","25d44e375b6b451b8a4ec6319d89a75f","3ab52344f2e74c7f96afb4e30a5e4116","d54108db363e4aafbae512a650b8e5d1","8bf08697b9d045259edc0cb7c50ed35e","b2dde6e6cad542b3950381a71f080974","b3189ade7b404964ad0d19db9a98fb90","b4cadce80df84f1f98d9c4d71de9ee28","b82d9e604f9647d98a76090b04c97d8c","efcf4860648a4817867758ac50db0526","4acc627d3fc14830a6bd2b5fc58d3fd0","0e36837fb15e479eb56bf886371c31ae","170c65ac4a56474ebce72b43a880a98d","e1cabfa22830444980c15469c11d4649","29e54cb4bb824e6ebc887eb2ce999b13","846f125d0bc94af1b300b88bd7f548c1","2b4a39efda8a43a0aa09f5a974977a71","1bfd61c707ec4bdbaab2389dee4852f7","68e361f4cdb847d9ab790a29e08a71b3","1117e29cb4db457f8ba9d447a76907c7","d49795239d204379beb7ca661eea08f0","2741f58d786241af83d15b9e42c7be1b","c5cac8df9a4844fc9d43ca55d959f7b1"],"datasourceWarning":false,"expressionType":"SIMPLE","filterOptionName":"filter_12u1cipyz4bp_i5j525laiho","isExtra":false,"isNew":false,"operator":"IN","operatorId":"IN","sqlExpression":null,"subject":"uid"},{"clause":"WHERE","comparator":[588,51,188,152,257,206,52,466,67,341,45,313,213,86,479,254,187,170,169,176,168,57,24,302,287,114,50,468,253,47,340,212,277,545,59,469,155,118,5,264,2,529,110,249,207,55,128,148,557,56,329,58,91],"datasourceWarning":false,"expressionType":"SIMPLE","filterOptionName":"filter_ips7c8tdvdl_gyysdsmc709","isExtra":false,"isNew":false,"operator":"IN","operatorId":"IN","sqlExpression":null,"subject":"interviewid"}],"order_by_cols":[],"row_limit":5000,"server_page_length":10,"order_desc":true,"table_timestamp_format":"smart_date","show_cell_bars":true,"color_pn":true,"extra_form_data":{},"dashboards":[6],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 2831bd0c-c3ce-47fa-8cf6-94aabd65dfb0
+version: 1.0.0
+dataset_uuid: df87d093-b525-4af2-a152-26e3c1f23ae6

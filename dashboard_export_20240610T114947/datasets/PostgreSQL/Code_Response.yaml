@@ -1,0 +1,125 @@
+table_name: Code Response
+main_dttm_col: responsetime
+description: null
+default_endpoint: null
+offset: 0
+cache_timeout: null
+schema: interview
+sql: "SELECT\r\n    qb.id AS questionid,\r\n    qb.question,\r\n    COUNT(ir.id) AS\
+  \ count,\r\n    COALESCE(SUM(ir.match) / NULLIF(COUNT(ir.id), 0), 0) AS rating,\r\
+  \n    ir.responsetime,\r\n    iq.category,\r\n    cr.final  -- Adding the final\
+  \ column from coderesponse table\r\nFROM\r\n    interview.codebank qb\r\nJOIN\r\n\
+  \    interview.interviewquestion iq ON qb.id = iq.questionid\r\nLEFT JOIN\r\n  \
+  \  interview.interviewresponse ir ON ir.questionid = iq.id\r\nLEFT JOIN\r\n    interview.coderesponse\
+  \ cr ON ir.questionid = cr.questionid  -- Assuming questionid is the linking column\r\
+  \nWHERE\r\n    ir.responsetime = (\r\n        SELECT \r\n            ir2.responsetime\
+  \ \r\n        FROM \r\n            interview.interviewresponse ir2 \r\n        WHERE\
+  \ \r\n            ir2.questionid = iq.id \r\n        ORDER BY \r\n            ir2.responsetime\
+  \ DESC \r\n        LIMIT 1\r\n    )\r\nGROUP BY\r\n    qb.id, qb.question, ir.responsetime,\
+  \ iq.category, cr.final  -- Adding the final column to GROUP BY\r\nORDER BY\r\n\
+  \    rating DESC, count DESC;\r\n"
+params: null
+template_params: null
+filter_select_enabled: true
+fetch_values_predicate: null
+extra: null
+normalize_columns: false
+always_filter_main_dttm: false
+uuid: 39b39487-d4df-474c-8a2b-b49dbb41b46e
+metrics:
+- metric_name: count
+  verbose_name: COUNT(*)
+  metric_type: count
+  expression: COUNT(*)
+  description: null
+  d3format: null
+  currency: null
+  extra: null
+  warning_text: null
+columns:
+- column_name: final
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: BOOLEAN
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: responsetime
+  verbose_name: null
+  is_dttm: true
+  is_active: true
+  type: DATETIMETZ
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: rating
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: FLOAT
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: count
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: LONGINTEGER
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: questionid
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: LONGINTEGER
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: category
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: STRING
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: question
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: STRING
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+version: 1.0.0
+database_uuid: 11f5c62b-c35e-4973-a349-edf089d2cadd
